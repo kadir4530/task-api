@@ -1,0 +1,37 @@
+body {}
+
+.navBar {
+    margin: 5% 20% 1%;
+    border: 1px solid #020213;
+    padding: 10px 0 5px 100px;
+    margin-left: 10;
+    left: 20p;
+}
+.container {
+    margin: 0 20%;
+    border: 1px solid #020213;
+    padding: 10px 0 5px 100px;
+    margin-left: 10;
+    left: 20p;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .searchGroup{
+      margin: 10px 0;
+  }
+  #userSelect{
+    height: 30px;
+  }
