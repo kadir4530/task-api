@@ -39,16 +39,6 @@ function getTodos() {
     })
 }
 
-// const fillTodos = (userId, filter) => {
-//     todoList.innerHTML = ''
-//     todoArray.map(todo => {
-//         if (((userId && todo.userId == userId) || !userId) && ((filter && todo.title.includes(filter)) || !filter)) {
-//             const newLi = document.createElement('li');
-//             newLi.innerText = `User Id : ${todo.userId} Title : ${todo.title}`;
-//             todoList.appendChild(newLi)
-//         }
-//     })
-// }
 
 
 const fillTodos = (userId, filter) => {
